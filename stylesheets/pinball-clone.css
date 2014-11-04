@@ -1,0 +1,58 @@
+#my_board {
+  width: 600px;
+  height: 600px;
+  border: 12px solid brown;
+  background-image: url("../imgs/floured-surface.png");
+  position: relative;
+  margin-left: 20px;
+  padding: 0;
+}
+
+td#cornerUL, td#cornerUR, td#cornerBL, td#cornerBR {
+  height: 50px;
+  width: 50px;
+  background-color: brown;
+}
+
+td#L1, td#L2, td#L3, td#L4, td#L5 {
+  height: 97px;
+  width: 50px;
+  margin = none;
+  border-top: 3px solid brown;
+  border-right: 5px solid brown;
+  border-bottom: 3px solid brown;
+}
+
+td#R1, td#R2, td#R3, td#R4, td#R5 {
+  height: 97px;
+  width: 50px;
+  margin = none;
+  border-top: 3px solid brown;
+  border-left: 5px solid brown;
+  border-bottom: 3px solid brown;
+}
+
+td#U1, td#U2, td#U3, td#U4, td#U5 {
+  height: 50px;
+  width: 112px;
+  margin = none;
+  border-left: 3px solid brown;
+  border-right: 3px solid brown;
+  border-bottom: 5px solid brown;
+}
+
+td#B1, td#B2, td#B3, td#B4, td#B5 {
+  height: 50px;
+  width: 112px;
+  margin = none;
+  border-left: 3px solid brown;
+  border-right: 3px solid brown;
+  border-top: 5px solid brown;
+}
+
+td#a11, td#a12, td#a13, td#a14, td#a15, td#a21, td#a22, td#a23, td#a24, td#a25, td#a31, td#a32, td#a33, td#a34, td#a35, td#a41, td#a42, td#a43, td#a44, td#a45, td#a51, td#a52, td#a53, td#a54, td#a55 {
+  margin = none;
+  border: 2px solid white;
+  height: 97px;
+  width: 112px;
+}
